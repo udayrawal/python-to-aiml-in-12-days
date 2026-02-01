@@ -1,6 +1,25 @@
+"""
+📘 Day 8 – NumPy Mini Project: Student Performance Analysis
+
+Objective:
+- Analyze student performance using NumPy
+- Practice axis-based operations
+- Identify top performers
+- Apply normalization for ML readiness
+
+Dataset Description:
+- Rows → Students
+- Columns → Subjects
+- Shape → (30 students × 7 subjects)
+"""
+
 import numpy as np
 
+# --------------------------------------------------
+# Dataset Creation
 # Rows = students, Columns = subjects
+# --------------------------------------------------
+
 scores = np.array([
     [78,72,69,75,80,74,71],
     [85,81,79,82,88,83,80],
@@ -34,12 +53,17 @@ scores = np.array([
     [82,80,78,81,85,82,79]
 ])
 
+# --------------------------------------------------
+# Dataset Overview
+# --------------------------------------------------
+
 print("\n====================== DATASET OVERVIEW =========================")
 print(f"Total Students: {scores.shape[0]}")
 print(f"Total Subjects: {scores.shape[1]}")
 
 # --------------------------------------------------
 # Student-wise Analysis
+# Axis = 1 → Row-wise → Per student
 # --------------------------------------------------
 
 student_avg = scores.mean(axis=1)
@@ -50,6 +74,7 @@ for i, avg in enumerate(student_avg):
 
 # --------------------------------------------------
 # Subject-wise Analysis
+# Axis = 0 → Column-wise → Per subject
 # --------------------------------------------------
 
 subject_avg = scores.mean(axis=0)
@@ -59,7 +84,7 @@ for i, avg in enumerate(subject_avg):
     print(f"Subject {i+1} → Average Score: {avg:.2f}")
 
 # --------------------------------------------------
-# Top Performer
+# Top Performer Identification
 # --------------------------------------------------
 
 top_idx = np.argmax(student_avg)
@@ -70,6 +95,7 @@ print(f"Top Student Average Score: {student_avg[top_idx]:.2f}")
 
 # --------------------------------------------------
 # Passing Analysis
+# Criteria: Average score ≥ 50
 # --------------------------------------------------
 
 passed_mask = student_avg >= 50
@@ -78,7 +104,8 @@ print("\n====================== PASSING ANALYSIS ===============================
 print(f"Students Passed (Average ≥ 50): {np.sum(passed_mask)} / {scores.shape[0]}")
 
 # --------------------------------------------------
-# Normalization
+# Normalization (Z-score)
+# Used in ML preprocessing
 # --------------------------------------------------
 
 mean = scores.mean()
@@ -91,6 +118,5 @@ print("Std after normalization (≈1):", normalized_scores.std().round(4))
 
 print("\n====================== THANK YOU ======================================\n")
 
-# ------------------------------------------------------------------------------------------------------------------
-
-# End of the File: 03_numpy/day8_numpy_mini_project.py
+# --------------------------------------------------
+# End of File 03_numpy/day8_numpy_mini_project.py
