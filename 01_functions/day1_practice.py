@@ -75,3 +75,6 @@ if __name__ == "__main__":
     print("Reverse:", reverse_string("Python"))
     print("Factorial:", factorial(5))
     print("Palindrome:", is_palindrome("Madam"))
+
+# ----------------------------------------------------------------------------
+# # End of the File: 01_functions/day1_practice.py

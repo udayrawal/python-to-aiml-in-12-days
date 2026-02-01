@@ -164,5 +164,5 @@ counter.reset()
 print("Count after reset:", counter.get_count())
 print("\n---------------------- Thank You -----------------------------\n")
 
-# --------------------------------------------------
-# END OF FILE
+# ----------------------------------------------------------------------------
+# # End of the File: 02_oops/day3_practice.py

@@ -176,3 +176,6 @@ linear_model.train("Sample Training Data")
 linear_model.predict("Sample Input Data")
 
 print("\n---------------------- Thank You -----------------------------\n")
+
+# ----------------------------------------------------------------------------
+# # End of the File: 02_oops/day4_practice.py

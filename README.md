@@ -1,23 +1,4 @@
-# 🚀 Python to AI/ML in 12 Days
-
-**Author:** Uday Rawal  
-**Deadline:** 5 February  
-**Goal:** Become internship-ready in Python to move confidently into AI/ML.
-
----
-
-## 🎯 Why This Repository Exists
-
-I realized that watching tutorials is not the same as *owning* Python.
-
-This repository is my **focused, time-bound execution plan** to:
-- Build strong confidence in Python core concepts
-- Stop fearing logic-based questions
-- Prepare a solid foundation for **AI/ML internships**
-
----
-
-## 🧠 What I’m Mastering (By 5 Feb)
+# 🚀 Python to AI/ML..
 
 ### ✅ Core Python
 - Functions (logic, return, reuse)
@@ -50,20 +31,5 @@ This repository is my **focused, time-bound execution plan** to:
 
 ---
 
-## 🚀 Final Objective
+**Author:** Uday Rawal  
 
-By the end of this repository, I aim to:
-- Answer Python interview questions confidently
-- Analyze real datasets without fear
-- Transition smoothly into **Machine Learning & AI**
-
-This is not a tutorial repo.  
-This is a **proof of work**.
-
----
-
-## 🔗 What’s Next
-
-➡️ Machine Learning with scikit-learn  
-➡️ Real-world ML projects  
-➡️ AI/ML Internship applications

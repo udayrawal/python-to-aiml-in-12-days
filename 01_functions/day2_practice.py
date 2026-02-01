@@ -98,3 +98,6 @@ if __name__ == "__main__":
 
     print("Count:", count_occurrences(lst=[1, 2, 2, 3, 2], target=2))
     print("Normalized:", normalize_list([10, 20, 30]))
+
+# ----------------------------------------------------------------------------
+# # End of the File: 01_functions/day2_practice.py
