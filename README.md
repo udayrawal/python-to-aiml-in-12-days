@@ -1,4 +1,4 @@
-# 🚀 Python to AI/ML..
+# 🚀 Python Practice and Numpy and Pandas
 
 ### ✅ Core Python
 - Functions (logic, return, reuse)
